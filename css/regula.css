@@ -1,0 +1,269 @@
+p {
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+.cente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.bt {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: none;
+    transition: 1s;
+    background-color: #A3C2FF;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0.6rem;
+}
+a.bt
+{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+
+.bt:hover {
+    transform: scale(1.2);
+    z-index: 1;
+    
+}
+
+
+.regu {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+   color: #A3C2FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.secao4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 67.8vh;
+    margin: 0;
+    gap: 0.3rem;
+    font-family: Helvetica, sans-serif;
+    margin-top: 5rem;
+}
+
+.secao4-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+ 
+}
+
+.secao4-div-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3 - 60px);
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #A3C2FF;
+    transition: all 0.5s ease;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.secao4-div-card:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.secao4-div-card img {
+    width: 35%;
+    height: auto;
+}
+
+.secao4-div-card h3 {
+    margin-bottom: 0px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #141B3E;
+    background-size: cover;
+}
+
+header {
+    background: rgb(0 0 0 / 77%);
+
+    /* background: rgb(0 0 0 / 51%); */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+/* menu */
+/* menu */
+header .logo {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: white;
+    width: 2.8rem;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 5px 0;
+    margin: 0 10px;
+    border: 3px solid transparent;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+.hamburger {
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    background: #ffffff;
+}
+
+/* fundo */
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: 'poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    max-width: 50rem;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/* menu */
+@media only screen and (max-width: 900px) {
+    header {
+        padding: 0 30px;
+    }
+
+    header .logo {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .hamburger {
+        display: block;
+    }
+
+    header nav {
+        position: absolute;
+        width: 100%;
+        left: -100%;
+        top: 70px;
+        width: 100%;
+        background: #000000;
+        padding: 30px;
+        transition: 0.3s;
+    }
+
+    header #nav_check:checked~nav {
+        left: 0;
+    }
+
+    header nav ul {
+        display: block;
+    }
+
+    header nav ul li a {
+        margin: 5px 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+
+    header .logo {
+        font-size: 1.1rem;
+    }
+}
+
+/* fundo */
+
+
+
+
+
+
+
+
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .secao4-div-card {
+        width: 100%;
+    }
+}
